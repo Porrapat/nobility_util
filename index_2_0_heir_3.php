@@ -36,7 +36,7 @@
 			echo "<td>".$row2['personel_id']."</td>";
 			echo "<td>".$i."</td>";
 			
-			$sql3 = sprintf("UPDATE heir SET heir.order=%s WHERE heir_id=%s",$i,$row2['heir_id']);
+			$sql3 = sprintf("UPDATE heir SET heir.heir_order=%s WHERE heir_id=%s",$i,$row2['heir_id']);
 			
 			echo "<td>".$sql3."</td>";
 			
