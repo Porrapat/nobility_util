@@ -4,7 +4,7 @@
 	$dbhost="localhost";	
 	$dbuser='root';			
 	$dbpass='1234';			
-	$dbname='nobility_2';			
+	$dbname='nobility';			
 
 	global $conn; 
 	$conn=mysql_connect($dbhost,$dbuser,$dbpass) or die ("ไม่สามารถเชื่อมต่อโฮสต์ได้");
